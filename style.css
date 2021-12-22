@@ -1,0 +1,17 @@
+img {
+  margin: 10px;
+}
+.main {
+  background-color:#A5A5A5;
+  max-width: 1200px;
+  margin: 10px auto;
+  padding: 30px 50px 10px 50px;
+}
+@media screen and (max-width: 480px) {
+  img {
+    margin: 3px;
+  }
+  .main {
+    padding: 30px 30px 10px 30px;
+  }
+}
